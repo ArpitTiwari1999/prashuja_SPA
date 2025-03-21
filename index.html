@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<!--[if !IE]><!-->
+<html lang="en-US">
+    <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="msapplication-TileColor" content="">
+        <meta name="theme-color" content="">
+        <link rel="profile" href="//gmpg.org/xfn/11">
+        <title>Wedding and Planner WordPress Theme</title>
+        <meta name='robots' content='max-image-preview:large'/>
+        <style>
+            img:is([sizes="auto" i], [sizes^="auto," i]) {
+                contain-intrinsic-size: 3000px 1500px
+            }
+        </style>
+        <link rel='dns-prefetch' href='//sukun.wpocean.site'/>
+        <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+        <link rel="alternate" type="application/rss+xml" title="Wedding and Planner WordPress Theme &raquo; Feed" href="https://sukun.wpocean.site/feed/"/>
+        <link rel="alternate" type="application/rss+xml" title="Wedding and Planner WordPress Theme &raquo; Comments Feed" href="https://sukun.wpocean.site/comments/feed/"/>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/sukun.wpocean.site\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"
+                }
+            };
+            /*! This file is auto-generated */
+            !function(i, n) {
+                var o, s, e;
+                function c(e) {
+                    try {
+                        var t = {
+                            supportTests: e,
+                            timestamp: (new Date).valueOf()
+                        };
+                        sessionStorage.setItem(o, JSON.stringify(t))
+                    } catch (e) {}
+                }
+                function p(e, t, n) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
+                      , r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(n, 0, 0),
+                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                    return t.every(function(e, t) {
+                        return e === r[t]
+                    })
+                }
+                function u(e, t, n) {
+                    switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
+                    }
+                    return !1
+                }
+                function f(e, t, n) {
+                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : i.createElement("canvas")
+                      , a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    })
+                      , o = (a.textBaseline = "top",
+                    a.font = "600 32px Arial",
+                    {});
+                    return e.forEach(function(e) {
+                        o[e] = t(a, e, n)
+                    }),
+                    o
+                }
+                function t(e) {
+                    var t = i.createElement("script");
+                    t.src = e,
+                    t.defer = !0,
+                    i.head.appendChild(t)
+                }
+                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
+                s = ["flag", "emoji"],
+                n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                },
+                e = new Promise(function(e) {
+                    i.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }
+                ),
+                new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
+                                return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
+                            try {
+                                var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));"
+                                  , r = new Blob([e],{
+                                    type: "text/javascript"
+                                })
+                                  , a = new Worker(URL.createObjectURL(r),{
+                                    name: "wpTestEmojiSupports"
+                                });
+                                return void (a.onmessage = function(e) {
+                                    c(n = e.data),
+                                    a.terminate(),
+                                    t(n)
+                                }
+                                )
+                            } catch (e) {}
+                        c(n = f(s, u, p))
+                    }
+                    t(n)
+                }
+                ).then(function(e) {
+                    for (var t in e)
+                        n.supports[t] = e[t],
+                        n.supports.everything = n.supports.everything && n.supports[t],
+                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
+                    n.DOMReady = !1,
+                    n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(),
+                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
+                    t(e.wpemoji)))
+                }))
+            }((window,
+            document), window._wpemojiSettings);
+            /* ]]> */
+        </script>
+        <link rel='stylesheet' id='hfe-widgets-style-css' href='https://sukun.wpocean.site/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=2.2.1' type='text/css' media='all'/>
+        <style id='wp-emoji-styles-inline-css' type='text/css'>
+            img.wp-smiley, img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <style id='classic-theme-styles-inline-css' type='text/css'>
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
+            }
+
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
+            }
+        </style>
+        <style id='global-styles-inline-css' type='text/css'>
+            :root {
+                --wp--preset--aspect-ratio--square: 1;
+                --wp--preset--aspect-ratio--4-3: 4/3;
+                --wp--preset--aspect-ratio--3-4: 3/4;
+                --wp--preset--aspect-ratio--3-2: 3/2;
+                --wp--preset--aspect-ratio--2-3: 2/3;
+                --wp--preset--aspect-ratio--16-9: 16/9;
+                --wp--preset--aspect-ratio--9-16: 9/16;
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--font-family--inter: "Inter", sans-serif;
+                --wp--preset--font-family--cardo: Cardo;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :where(.is-layout-flex) {
+                gap: 0.5em;
+            }
+
+            :where(.is-layout-grid) {
+                gap: 0.5em;
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .is-layout-flex > :is(*, div) {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            .is-layout-grid > :is(*, div) {
+                margin: 0;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :root :where(.wp-block-pullquote) {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel='stylesheet' id='contact-form-7-css' href='https://sukun.wpocean.site/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.5' type='text/css' media='all'/>
+        <link rel='stylesheet' id='sukun-elementor-css' href='https://sukun.wpocean.site/wp-content/plugins/sukun-core/elementor/assets/css/sukun-elementor.css?ver=1.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='woocommerce-layout-css' href='https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.7.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.7.1' type='text/css' media='only screen and (max-width: 768px)'/>
+        <link rel='stylesheet' id='woocommerce-general-css' href='https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.7.1' type='text/css' media='all'/>
+        <style id='woocommerce-inline-inline-css' type='text/css'>
+            .woocommerce form .form-row .required {
+                visibility: visible;
+            }
+        </style>
+        <link rel='stylesheet' id='hfe-style-css' href='https://sukun.wpocean.site/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=2.2.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-frontend-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.7' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-10-css' href='https://sukun.wpocean.site/wp-content/uploads/sites/19/elementor/css/post-10.css?ver=1742208082' type='text/css' media='all'/>
+        <link rel='stylesheet' id='font-awesome-5-all-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.27.7' type='text/css' media='all'/>
+        <link rel='stylesheet' id='font-awesome-4-shim-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.27.7' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-17-css' href='https://sukun.wpocean.site/wp-content/uploads/sites/19/elementor/css/post-17.css?ver=1742208082' type='text/css' media='all'/>
+        <link rel='stylesheet' id='brands-styles-css' href='https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/css/brands.css?ver=9.7.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='themify-icons-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/themify-icons.css?ver=4.6.3' type='text/css' media='all'/>
+        <link rel='stylesheet' id='bootstrap-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/bootstrap.min.css?ver=5.0.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='animate-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/animate.css?ver=3.5.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='odometer-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/odometer.css?ver=0.4.8' type='text/css' media='all'/>
+        <link rel='stylesheet' id='progresscircle-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/progresscircle.css?ver=1.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='owl-carousel-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/owl.carousel.css?ver=2.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='owl-theme-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/owl.theme.css?ver=2.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='slick-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/slick.css?ver=1.6.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='magnific-popup-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/magnific-popup.css?ver=1.1.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='swiper-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all'/>
+        <link rel='stylesheet' id='slick-theme-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/slick-theme.css?ver=1.6.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='owl-transitions-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/owl.transitions.css?ver=2.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='fancybox-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/fancybox.css?ver=2.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='sukun-style-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/styles.css?ver=1.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='element-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/elements.css?ver=1.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='sukun-google-fonts-css' href='//fonts.googleapis.com/css2?family=Mulish%3Aital%2Cwght%400%2C200..1000%3B1%2C200..1000&#038;ver=1.0#038;display=swap' type='text/css' media='all'/>
+        <link rel='stylesheet' id='sukun-responsive-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/assets/css/responsive.css?ver=1.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='sukun-default-style-css' href='https://sukun.wpocean.site/wp-content/themes/sukun/style.css?ver=6.7.2' type='text/css' media='all'/>
+        <style id='sukun-default-style-inline-css' type='text/css'>
+            .layout-boxed {
+            }
+        </style>
+        <link rel='stylesheet' id='hfe-elementor-icons-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='hfe-icons-list-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3' type='text/css' media='all'/>
+        <link rel='stylesheet' id='hfe-social-icons-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='hfe-social-share-icons-brands-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3' type='text/css' media='all'/>
+        <link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3' type='text/css' media='all'/>
+        <link rel='stylesheet' id='hfe-nav-menu-icons-css' href='https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3' type='text/css' media='all'/>
+        <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.2' type='text/css' media='all'/>
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+        <script type="text/javascript" id="jquery-js-after">
+            /* <![CDATA[ */
+            !function($) {
+                "use strict";
+                $(document).ready(function() {
+                    $(this).scrollTop() > 100 && $(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"),
+                    $(window).scroll(function() {
+                        $(this).scrollTop() < 100 ? $(".hfe-scroll-to-top-wrap").fadeOut(300) : $(".hfe-scroll-to-top-wrap").fadeIn(300)
+                    }),
+                    $(".hfe-scroll-to-top-wrap").on("click", function() {
+                        $("html, body").animate({
+                            scrollTop: 0
+                        }, 300);
+                        return !1
+                    })
+                })
+            }(jQuery);
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.7.1" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" id="wc-add-to-cart-js-extra">
+            /* <![CDATA[ */
+            var wc_add_to_cart_params = {
+                "ajax_url": "\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+                "i18n_view_cart": "View cart",
+                "cart_url": "https:\/\/sukun.wpocean.site\/cart\/",
+                "is_cart": "",
+                "cart_redirect_after_add": "no"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.7.1" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.7.1" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" id="woocommerce-js-extra">
+            /* <![CDATA[ */
+            var woocommerce_params = {
+                "ajax_url": "\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+                "i18n_password_show": "Show password",
+                "i18n_password_hide": "Hide password"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.7.1" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.27.7" id="font-awesome-4-shim-js"></script>
+        <link rel="https://api.w.org/" href="https://sukun.wpocean.site/wp-json/"/>
+        <link rel="alternate" title="JSON" type="application/json" href="https://sukun.wpocean.site/wp-json/wp/v2/pages/17"/>
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sukun.wpocean.site/xmlrpc.php?rsd"/>
+        <meta name="generator" content="WordPress 6.7.2"/>
+        <meta name="generator" content="WooCommerce 9.7.1"/>
+        <link rel="canonical" href="https://sukun.wpocean.site/"/>
+        <link rel='shortlink' href='https://sukun.wpocean.site/'/>
+        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://sukun.wpocean.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsukun.wpocean.site%2F"/>
+        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://sukun.wpocean.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsukun.wpocean.site%2F&#038;format=xml"/>
+        <noscript>
+            <style>
+                .woocommerce-product-gallery {
+                    opacity: 1 !important;
+                }
+            </style>
+        </noscript>
+        <meta name="generator" content="Elementor 3.27.7; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+        <style>
+            .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+
+            @media screen and (max-height: 1024px) {
+                .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                    background-image: none !important;
+                }
+            }
+
+            @media screen and (max-height: 640px) {
+                .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                    background-image: none !important;
+                }
+            }
+        </style>
+        <style class='wp-fonts-local' type='text/css'>
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 300 900;
+                font-display: fallback;
+                src: url('https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');
+                font-stretch: normal;
+            }
+
+            @font-face {
+                font-family: Cardo;
+                font-style: normal;
+                font-weight: 400;
+                font-display: fallback;
+                src: url('https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
+            }
+        </style>
+    </head>
+    <body class="home page-template page-template-elementor_header_footer page page-id-17 theme-sukun woocommerce-no-js ehf-template-sukun ehf-stylesheet-sukun elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-17">
+        <div class="page-wrapper layout-full">
+            <!-- #sukun-theme-wrapper -->
+            <!-- start preloader -->
+            <div class="preloader">
+                <div class="vertical-centered-box">
+                    <div class="content">
+                        <div class="loader-circle"></div>
+                        <div class="loader-line-mask">
+                            <div class="loader-line"></div>
+                        </div>
+                        <img src="./prashuja_logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- end preloader -->
+            <header id="header" class="header-builder">
+                <div data-elementor-type="wp-post" data-elementor-id="250" class="elementor elementor-250">
+                    <div class="elementor-element elementor-element-ebee289 e-con-full e-flex e-con e-parent" data-id="ebee289" data-element_type="container">
+                        <div class="elementor-element elementor-element-cab7b43 elementor-widget elementor-widget-wpo-sukun_header" data-id="cab7b43" data-element_type="widget" data-settings="{&quot;header_logo&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/logo.svg&quot;,&quot;id&quot;:242,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;logo&quot;,&quot;source&quot;:&quot;library&quot;}}" data-widget_type="wpo-sukun_header.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpo-custom-site-header wpo-site-header wpo-header-style-1">
+                                    <nav class="navigation navbar navbar-expand-lg navbar-light">
+                                        <div class="container-fluid">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-2 col-md-6 col-6">
+                                                    <div class="navbar-header">
+                                                        <a class="navbar-brand" href="https://sukun.wpocean.site/">
+                                                            <img decoding="async" src="./prashuja_logo.png" alt="http://logo">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end of container -->
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div data-elementor-type="wp-page" data-elementor-id="17" class="elementor elementor-17">
+                <div class="elementor-element elementor-element-6b1b3cf e-con-full e-flex e-con e-parent" data-id="6b1b3cf" data-element_type="container">
+                    <div class="elementor-element elementor-element-ebc5048 elementor-widget elementor-widget-wpo-sukun_hero_hero" data-id="ebc5048" data-element_type="widget" data-settings="{&quot;hero_bg&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/11\/hero-img-1-1.png&quot;,&quot;id&quot;:46,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;Hero Flower &quot;,&quot;source&quot;:&quot;library&quot;}}" data-widget_type="wpo-sukun_hero_hero.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-hero static-hero">
+                                <div class="static-main-box">
+                                    <div class="static-inner-box">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col col-xl-6 col-lg-6 col-12">
+                                                    <div class="static-hero-img">
+                                                        <img decoding="async" class="wow fadeInLeftSlow" data-wow-duration="1500ms" src="./prashuja_dp_2.jpg" alt="">
+                                                        <div class="hero-img-inner-shape">
+                                                            <svg viewBox="0 0 550 814" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M520 0.804281C529.932 0.270383 539.935 0 550 0V30V784V814H520H30.0002H0.000244141V784V550C0.000244141 256.309 230.195 16.3825 520 0.804281ZM95 298.06C85.7573 314.717 77.4026 331.934 70 349.649V784H95V298.06ZM119 258.979V784H144V225.064C135.224 236.015 126.882 247.329 119 258.979ZM192 784H168V197.185C175.733 188.816 183.738 180.702 192 172.857V784ZM215 784H241V131.725C232.112 138.302 223.441 145.156 215 152.273V784ZM290 784H264V115.645C272.496 110.04 281.166 104.677 290 99.5667V784ZM314 784H338.25V74.9247C330.053 78.5841 321.967 82.4494 314 86.5141V784ZM386.834 784H362.084V64.992C370.236 61.8311 378.488 58.8699 386.834 56.1142V784ZM410.667 784H434.5V42.8728C426.484 44.6909 418.538 46.6941 410.667 48.8779V784ZM481.25 784H458.334V38.0538C465.917 36.7051 473.557 35.5207 481.25 34.5046V784ZM505.084 784H520V30.8509C515.009 31.1348 510.036 31.4892 505.084 31.9129V784ZM30.0002 550C30.0002 504.255 35.9072 459.889 47 417.624V784H30.0002V550Z"/>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6 col-lg-6 col-12">
+                                                    <div class="wpo-static-hero-text-box">
+                                                        <div class="slide-title">
+                                                            <h2 class="poort-text poort-in-up">Puja &amp; Prashant </h2>
+                                                        </div>
+                                                        <div class="slide-text wow fadeInUp" data-wow-duration="1600ms">
+                                                            <p>We Are Getting Married on</p>
+                                                        </div>
+                                                        <div class="slide-date wow fadeInUp" data-wow-duration="1700ms">
+                                                            <p>18 . April . 2025</p>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-shape wow fadeInUp" data-wow-duration="1400ms">
+                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/11/hero-img-1-1.png" alt="Hero Flower">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-4fc5bb3 e-con-full e-flex e-con e-parent" data-id="4fc5bb3" data-element_type="container">
+                    <div class="elementor-element elementor-element-f6f0993 elementor-widget elementor-widget-wpo-sukun_coundown" data-id="f6f0993" data-element_type="widget" data-widget_type="wpo-sukun_coundown.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-wedding-date wpo-wedding-date">
+                                <h2 class="d-none">hidden</h2>
+                                <div class="container">
+                                    <div class="wedding-date-wrap wow fadeInUp" data-wow-duration="1600ms">
+                                        <div class="clock-grids">
+                                            <div id="clock" data-date="2025-04-18 00:00"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end container -->
+                            </div>
+                            <script>
+                                jQuery(document).ready(function() {
+                                    /*------------------------------------------
+            = COUNTDOWN CLOCK
+        -------------------------------------------*/
+                                    if (jQuery("#clock").length) {
+                                        var weddingDate = jQuery('#clock').data('date');
+                                        jQuery('#clock').countdown(weddingDate, function(event) {
+                                            var $this = jQuery(this).html(event.strftime('' + '<div class="box"><div><div class="time">%D</div> <span>Days</span></div></div>' + '<div class="box"><div><div class="time">%H</div> <span>Hours</span></div></div>' + '<div class="box"><div><div class="time">%M</div> <span>Mins</span> </div></div>' + '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>'));
+                                        });
+                                    }
+
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-a63d566 e-con-full e-flex e-con e-parent" data-id="a63d566" data-element_type="container">
+                    <div class="elementor-element elementor-element-83ec5c2 elementor-widget elementor-widget-wpo-sukun_couple_hero" data-id="83ec5c2" data-element_type="widget" data-settings="{&quot;bride_image&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/couple-img-1.jpg&quot;,&quot;id&quot;:986,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;couple-img-1&quot;,&quot;source&quot;:&quot;library&quot;},&quot;groom_image&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/couple-img-2.jpg&quot;,&quot;id&quot;:991,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;couple-img-2&quot;,&quot;source&quot;:&quot;library&quot;},&quot;cuple_shape1&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/flower1.png&quot;,&quot;id&quot;:995,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;flower1&quot;,&quot;source&quot;:&quot;library&quot;},&quot;cuple_shape2&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/flower2.png&quot;,&quot;id&quot;:996,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;flower2&quot;,&quot;source&quot;:&quot;library&quot;},&quot;bride_icon&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/bride.svg&quot;,&quot;id&quot;:1000,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;groom_icon&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/groom.svg&quot;,&quot;id&quot;:1005,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;groom&quot;,&quot;source&quot;:&quot;library&quot;}}" data-widget_type="wpo-sukun_couple_hero.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-couple wpo-couple-section">
+                                <div class="container">
+                                    <div class="couple-area clearfix">
+                                        <div class="couple-wrap">
+                                            <div class="row align-items-center gx-5">
+                                                <div class="col col-md-6 col-12">
+                                                    <div class="couple-item">
+                                                        <div class="couple-img">
+                                                            <img decoding="async" src="./puja.jpg" alt="">
+                                                        </div>
+                                                        <div class="couple-text">
+                                                            <i>
+                                                                <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/bride.svg" alt="bride">
+                                                            </i>
+                                                            <h3>आयु पूजा रानी</h3>
+                                                            <p>सुपुत्री: श्रीमती बासो देवी एव श्री रामसुंदर महतोs</p>
+                                                            <div class="social">
+                                                                <ul>
+                                                                    <!-- <li>
+                                                                        <a href="#">
+                                                                            <i class="fab fa-facebook-f"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <i class="ti-twitter-alt"></i>
+                                                                        </a>
+                                                                    </li> -->
+                                                                    <li>
+                                                                        <a href="https://www.instagram.com/pujakipanktiya/">
+                                                                            <i class="fab fa-instagram"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="couple-bg">
+                                                                <svg viewBox="0 0 500 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 28.0003C0 28.0003 40 -20.2942 78 11.0001C90.075 20.9443 94.3766 37.833 95.1425 54.6979C95.9162 71.7365 117.555 85.4249 131.164 75.1428C133.036 73.7282 135.17 72.6975 137.441 72.11L142.442 70.8167C168.453 64.0898 194.316 82.2112 196.874 108.956L197.393 114.379C200.295 144.721 230.211 164.837 259.405 156.079L263 155C290.305 139.265 324.668 157.485 326.966 188.914L328.735 213.107C329.843 228.267 342.466 240 357.667 240C359.882 240 362.089 239.747 364.246 239.244L376.055 236.494C404.616 229.843 431.332 253.052 428.738 282.263L427.564 295.484C425.743 315.988 443.286 332.954 463.719 330.449C482.999 328.085 500 343.128 500 362.553V433H0V28.0003Z" fill="white"/>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-md-6 col-12">
+                                                    <div class="couple-item">
+                                                        <div class="couple-img">
+                                                            <img decoding="async" src="./prashant.jpg" alt="couple-img-2">
+                                                        </div>
+                                                        <div class="couple-text">
+                                                            <i>
+                                                                <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/groom.svg" alt="groom">
+                                                            </i>
+                                                            <h3>चि प्रशांत मेहता (मिंटू)</h3>
+                                                            <p>सुपुत्र: स्व झुनिया देवी एव स्व नारायण महतो</p>
+                                                            <div class="social">
+                                                                <ul>
+                                                                    <!-- <li>
+                                                                        <a href="#">
+                                                                            <i class="fab fa-facebook-f"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <i class="ti-twitter-alt"></i>
+                                                                        </a>
+                                                                    </li> -->
+                                                                    <li>
+                                                                        <a href="https://www.instagram.com/pkrmehta/">
+                                                                            <i class="fab fa-instagram"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="couple-bg">
+                                                                <svg viewBox="0 0 500 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M500 28.0003C500 28.0003 460 -20.2942 422 11.0001C409.925 20.9443 405.623 37.833 404.858 54.6979C404.084 71.7365 382.445 85.4249 368.836 75.1428C366.964 73.7282 364.83 72.6975 362.559 72.11L357.558 70.8167C331.547 64.0898 305.684 82.2112 303.126 108.956L302.607 114.379C299.705 144.721 269.789 164.837 240.595 156.079L237 155C209.695 139.265 175.332 157.485 173.034 188.914L171.265 213.107C170.157 228.267 157.534 240 142.333 240C140.118 240 137.911 239.747 135.754 239.244L123.945 236.494C95.3837 229.843 68.6684 253.052 71.2621 282.263L72.436 295.484C74.2567 315.988 56.7136 332.954 36.2814 330.449C17.0009 328.085 0 343.128 0 362.553V433H500V28.0003Z" fill="white"/>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="shape-1">
+                                                <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/flower1.png" alt="flower1">
+                                            </div>
+                                            <div class="shape-2">
+                                                <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/flower2.png" alt="flower2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 
+                <div class="elementor-element elementor-element-b138672 e-con-full e-flex e-con e-parent" data-id="b138672" data-element_type="container">
+                    <div class="elementor-element elementor-element-c3b5b6b elementor-widget elementor-widget-wpo-sukun_story" data-id="c3b5b6b" data-element_type="widget" data-settings="{&quot;pin_image&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/pin.svg&quot;,&quot;id&quot;:1294,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;pin&quot;,&quot;source&quot;:&quot;library&quot;}}" data-widget_type="wpo-sukun_story.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-story wpo-story-section section-padding pb-0" id="story">
+                                <div class="container">
+                                    <div class="wpo-section-title">
+                                        <h4 class="poort-text poort-in-right">Our Story</h4>
+                                        <h2 class="poort-text poort-in-right">How it Happened</h2>
+                                    </div>
+                                    <div class="wpo-story-wrap">
+                                        <div class="wpo-story-item">
+                                            <div class="row">
+                                                <div class="col col-lg-6 col-12">
+                                                    <div class="wpo-story-img">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/story-1.jpg" alt="story-1">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-6 col-12">
+                                                    <div class="wpo-story-content">
+                                                        <div class="pin">
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/pin.svg" alt="">
+                                                        </div>
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/f-shape-1.png" alt="">
+                                                        </i>
+                                                        <h2>First Time We Meet</h2>
+                                                        <span class="date">12 Feb 2016</span>
+                                                        <p>Lorem ipsum dolor sit amet, constetur kiy adicng elit. Ultricies nulla mi tempus mcorper for praesent. Ultricies interdum hy volutpat morbi nam ornare neque elit leo, diam. Malesuada enim ac amurna tempor asr btyrfgvel duis.</p>
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/f-shape-2.png" alt="f-shape-2">
+                                                        </i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpo-story-item">
+                                            <div class="row">
+                                                <div class="col col-lg-6 col-12">
+                                                    <div class="wpo-story-img">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/story-2.jpg" alt="story-2">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-6 col-12">
+                                                    <div class="wpo-story-content">
+                                                        <div class="pin">
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/pin.svg" alt="">
+                                                        </div>
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/f-shape-1.png" alt="">
+                                                        </i>
+                                                        <h2>Our First Date</h2>
+                                                        <span class="date">25 Mar 2017</span>
+                                                        <p>Lorem ipsum dolor sit amet, constetur kiy adicng elit. Ultricies nulla mi tempus mcorper for praesent. Ultricies interdum hy volutpat morbi nam ornare neque elit leo, diam. Malesuada enim ac amurna tempor asr btyrfgvel duis.</p>
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/f-shape-2.png" alt="f-shape-2">
+                                                        </i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpo-story-item">
+                                            <div class="row">
+                                                <div class="col col-lg-6 col-12">
+                                                    <div class="wpo-story-img">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/story-3.jpg" alt="story-3">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-6 col-12">
+                                                    <div class="wpo-story-content">
+                                                        <div class="pin">
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/pin.svg" alt="">
+                                                        </div>
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/f-shape-1.png" alt="">
+                                                        </i>
+                                                        <h2>She Said Yes!</h2>
+                                                        <span class="date">18 Sep 2023</span>
+                                                        <p>Lorem ipsum dolor sit amet, constetur kiy adicng elit. Ultricies nulla mi tempus mcorper for praesent. Ultricies interdum hy volutpat morbi nam ornare neque elit leo, diam. Malesuada enim ac amurna tempor asr btyrfgvel duis.</p>
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/f-shape-2.png" alt="f-shape-2">
+                                                        </i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end container --
+                                <div class="flower-shape-1">
+                                    <div class="flower-sticky">
+                                        <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2024/12/shape1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="flower-shape-2">
+                                    <div class="flower-sticky">
+                                        <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2024/12/shape2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-fff6045 e-con-full e-flex e-con e-parent" data-id="fff6045" data-element_type="container">
+                    <div class="elementor-element elementor-element-d38bea3 elementor-widget elementor-widget-wpo-sukun_title" data-id="d38bea3" data-element_type="widget" data-widget_type="wpo-sukun_title.default">
+                        <div class="elementor-widget-container">
+                            <div class="wpo-section-area">
+                                <div class="wpo-section-title">
+                                    <h4 class="poort-text poort-in-right">Sweet Memories</h4>
+                                    <h2 class="poort-text poort-in-right">Our Captured Moment</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-25dfa61 e-con-full e-flex e-con e-parent" data-id="25dfa61" data-element_type="container">
+                    <div class="elementor-element elementor-element-ddaf50f elementor-widget elementor-widget-wpo-sukun_gallery" data-id="ddaf50f" data-element_type="widget" data-settings="{&quot;left_image&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/gallery1.jpg&quot;,&quot;id&quot;:1638,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;gallery1&quot;,&quot;source&quot;:&quot;library&quot;},&quot;right_image&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2024\/12\/gallery2.jpg&quot;,&quot;id&quot;:1667,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;gallery2&quot;,&quot;source&quot;:&quot;library&quot;}}" data-widget_type="wpo-sukun_gallery.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-gallery wpo-portfolio-section">
+                                <div class="container-fluid">
+                                    <div class="gallery-main-wrap">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-2 col-md-6 order-lg-1 order-2">
+                                                <div class="gallery-side-img wow fadeInLeftSlow" data-wow-duration="1400ms">
+                                                    <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                        <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery1.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery1.jpg" alt="gallery1" class="img img-responsive">
+                                                            <div class="hover-content">
+                                                                <i class="ti-plus"></i>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 order-lg-2 order-3">
+                                                <div class="sortable-gallery">
+                                                    <div class="row portfolio-grids style-1 clearfix">
+                                                        <div class="col-lg-4 col-md-6 col-12 grid">
+                                                            <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                                <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery3.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery3.jpg" alt="gallery3" class="img img-responsive">
+                                                                    <div class="hover-content">
+                                                                        <i class="ti-plus"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-12 grid">
+                                                            <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                                <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery4.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery4.jpg" alt="gallery4" class="img img-responsive">
+                                                                    <div class="hover-content">
+                                                                        <i class="ti-plus"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-12 grid">
+                                                            <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                                <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery5.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery5.jpg" alt="gallery5" class="img img-responsive">
+                                                                    <div class="hover-content">
+                                                                        <i class="ti-plus"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-12 grid">
+                                                            <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                                <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery6.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery6.jpg" alt="gallery6" class="img img-responsive">
+                                                                    <div class="hover-content">
+                                                                        <i class="ti-plus"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-12 grid">
+                                                            <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                                <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery7.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery7.jpg" alt="gallery7" class="img img-responsive">
+                                                                    <div class="hover-content">
+                                                                        <i class="ti-plus"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-12 grid">
+                                                            <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                                <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery8.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery8.jpg" alt="gallery8" class="img img-responsive">
+                                                                    <div class="hover-content">
+                                                                        <i class="ti-plus"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6 order-lg-3 order-2">
+                                                <div class="gallery-side-img wow fadeInRightSlow" data-wow-duration="1400ms">
+                                                    <div class="img-holder wow fadeInUp" data-wow-duration="1000ms">
+                                                        <a href="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery2.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2024/12/gallery2.jpg" alt="gallery2" class="img img-responsive">
+                                                            <div class="hover-content">
+                                                                <i class="ti-plus"></i>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-9eacc19 e-con-full e-flex e-con e-parent" data-id="9eacc19" data-element_type="container">
+                    <div class="elementor-element elementor-element-a06071c elementor-widget elementor-widget-wpo-sukun_contact_form" data-id="a06071c" data-element_type="widget" data-settings="{&quot;main_image&quot;:{&quot;url&quot;:&quot;http:\/\/wpocean.site\/wp-content\/uploads\/sites\/19\/2025\/01\/img-1.png&quot;,&quot;id&quot;:1826,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;img-1&quot;,&quot;source&quot;:&quot;library&quot;}}" data-widget_type="wpo-sukun_contact_form.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-rsvp-form wpo-contact-section">
+                                <div class="container-fluid">
+                                    <div class="contact-wrap">
+                                        <div class="row">
+                                            <div class="col col-xl-8 col-lg-7 col-md-12 col-12">
+                                                <div class="contact-img-wrap">
+                                                    <div class="contact-img wow fadeInLeftSlow" data-wow-duration="1700ms">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/img-1.png" alt="img-1">
+                                                    </div>
+                                                    <div class="back-shape">
+                                                        <svg viewBox="0 0 693 954" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M15 346.5C15 163.418 163.418 15 346.5 15C529.582 15 678 163.418 678 346.5V939H15V346.5Z" stroke="#9F7B59" stroke-width="30"/>
+                                                            <rect x="50" y="168" width="30" height="765" fill="#9F7B59"/>
+                                                            <rect x="100" y="106" width="30" height="827" fill="#9F7B59"/>
+                                                            <rect x="150" y="67" width="30" height="866" fill="#9F7B59"/>
+                                                            <rect x="200" y="45" width="30" height="879" fill="#9F7B59"/>
+                                                            <rect x="250" y="23" width="30" height="910" fill="#9F7B59"/>
+                                                            <rect x="300" y="14" width="30" height="919" fill="#9F7B59"/>
+                                                            <rect x="350" y="14" width="30" height="919" fill="#9F7B59"/>
+                                                            <rect x="400" y="14" width="30" height="919" fill="#9F7B59"/>
+                                                            <rect x="450" y="34" width="30" height="899" fill="#9F7B59"/>
+                                                            <rect x="500" y="67" width="30" height="866" fill="#9F7B59"/>
+                                                            <rect x="550" y="100" width="30" height="833" fill="#9F7B59"/>
+                                                            <rect x="600" y="148" width="30" height="785" fill="#9F7B59"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-xl-4 col-lg-5 col-md-12 col-12">
+                                                <div class="wpo-contact-section-wrapper wow fadeInRightSlow" data-wow-duration="1700ms">
+                                                    <div class="wpo-contact-form-area">
+                                                        <div class="wpo-section-title">
+                                                            <h2>Are You Attending?</h2>
+                                                        </div>
+                                                        <div class="wpcf7 no-js" id="wpcf7-f9-p17-o1" lang="en-US" dir="ltr" data-wpcf7-id="9">
+                                                            <div class="screen-reader-response">
+                                                                <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                                                <ul></ul>
+                                                            </div>
+                                                            <form action="/#wpcf7-f9-p17-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                                                <div style="display: none;">
+                                                                    <input type="hidden" name="_wpcf7" value="9"/>
+                                                                    <input type="hidden" name="_wpcf7_version" value="6.0.5"/>
+                                                                    <input type="hidden" name="_wpcf7_locale" value="en_US"/>
+                                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f9-p17-o1"/>
+                                                                    <input type="hidden" name="_wpcf7_container_post" value="17"/>
+                                                                    <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
+                                                                </div>
+                                                                <div>
+                                                                    <div>
+                                                                        <p>
+                                                                            <span class="wpcf7-form-control-wrap" data-name="text-962">
+                                                                                <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" autocomplete="name" aria-required="true" aria-invalid="false" placeholder="Name" value="" type="text" name="text-962"/>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div>
+                                                                        <p>
+                                                                            <span class="wpcf7-form-control-wrap" data-name="email-294">
+                                                                                <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control" autocomplete="email" aria-required="true" aria-invalid="false" placeholder="Email" value="" type="email" name="email-294"/>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="radio-buttons">
+                                                                        <p>
+                                                                            <span class="wpcf7-form-control-wrap" data-name="radio-735">
+                                                                                <span class="wpcf7-form-control wpcf7-radio">
+                                                                                    <span class="wpcf7-list-item first">
+                                                                                        <label>
+                                                                                            <input type="radio" name="radio-735" value="Yes, I will be there"/>
+                                                                                            <span class="wpcf7-list-item-label">Yes, I will be there</span>
+                                                                                        </label>
+                                                                                    </span>
+                                                                                    <span class="wpcf7-list-item last">
+                                                                                        <label>
+                                                                                            <input type="radio" name="radio-735" value="Sorry, I can’t come"/>
+                                                                                            <span class="wpcf7-list-item-label">Sorry, I can’t come</span>
+                                                                                        </label>
+                                                                                    </span>
+                                                                                </span>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div>
+                                                                        <p>
+                                                                            <span class="wpcf7-form-control-wrap" data-name="select-471">
+                                                                                <select class="wpcf7-form-control wpcf7-select form-control" aria-invalid="false" name="select-471">
+                                                                                    <option value="Number Of Guests">Number Of Guests</option>
+                                                                                    <option value="01">01</option>
+                                                                                    <option value="02">02</option>
+                                                                                    <option value="03">03</option>
+                                                                                    <option value="04">04</option>
+                                                                                    <option value="05">05</option>
+                                                                                    <option value="06">06</option>
+                                                                                </select>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div>
+                                                                        <p>
+                                                                            <span class="wpcf7-form-control-wrap" data-name="text-555">
+                                                                                <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="What Will You Be Attendin" value="" type="text" name="text-555"/>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div>
+                                                                        <p>
+                                                                            <span class="wpcf7-form-control-wrap" data-name="select-120">
+                                                                                <select class="wpcf7-form-control wpcf7-select form-control last" aria-invalid="false" name="select-120">
+                                                                                    <option value="Meal Preferences">Meal Preferences</option>
+                                                                                    <option value="Chicken Soup">Chicken Soup</option>
+                                                                                    <option value="Motton Kabab">Motton Kabab</option>
+                                                                                    <option value="Chicken BBQ">Chicken BBQ</option>
+                                                                                    <option value="Mix Salad">Mix Salad</option>
+                                                                                    <option value="Beef Ribs">Beef Ribs</option>
+                                                                                </select>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="submit-area">
+                                                                        <p>
+                                                                            <input class="wpcf7-form-control wpcf7-submit has-spinner theme-btn" type="submit" value="RSVP"/>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shape-1 wow fadeInLeftSlow" data-wow-duration="2000ms">
+                                            <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2025/01/left-shape.png" alt="">
+                                        </div>
+                                        <div class="shape-2 wow fadeInRightSlow" data-wow-duration="1800ms">
+                                            <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2025/01/right-shape.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-text marquee">
+                                    <h2>We Are Waiting For You to celebrate our Love.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="elementor-element elementor-element-fee00c3 e-con-full e-flex e-con e-parent" data-id="fee00c3" data-element_type="container">
+                    <div class="elementor-element elementor-element-763df18 elementor-widget elementor-widget-wpo-sukun_title" data-id="763df18" data-element_type="widget" data-widget_type="wpo-sukun_title.default">
+                        <div class="elementor-widget-container">
+                            <div class="wpo-section-area">
+                                <div class="wpo-section-title">
+                                    <h4 class="poort-text poort-in-right">When &amp;Where</h4>
+                                    <h2 class="poort-text poort-in-right">Our Wedding Programs</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-e07954c e-con-full e-flex e-con e-parent" data-id="e07954c" data-element_type="container">
+                    <div class="elementor-element elementor-element-cdd3b43 elementor-widget elementor-widget-wpo-sukun_events" data-id="cdd3b43" data-element_type="widget" data-widget_type="wpo-sukun_events.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-events wpo-event-section" id="event">
+                                <div class="container">
+                                    <div class="wpo-event-main">
+                                        <div class="event-description">
+                                            <p>Monday, 14 Apr. 2025 – Friday, 18 Apr. 2025</p>
+                                            <p>रणस कंट्री कॉटेज मैक्लुस्कीगंज</p>
+                                            <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.934198915833!2d84.93928546529067!3d23.665898271925737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4cbeb89ec2215%3A0x4947f696e53b64ca!2sRana&#39;s%20Country%20Cottage%20McCluskieganj!5e1!3m2!1sen!2sca!4v1742525513248!5m2!1sen!2sca">See Location								</a>
+                                        </div>
+                                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.934198915833!2d84.93928546529067!3d23.665898271925737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4cbeb89ec2215%3A0x4947f696e53b64ca!2sRana&#39;s%20Country%20Cottage%20McCluskieganj!5e1!3m2!1sen!2sca!4v1742525513248!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                                        <div class="wpo-event-wrap">
+                                            <div class="wpo-event-inner">
+                                                <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event1.svg" alt="event1">
+                                                        </i>
+                                                        <span>शुभलगनबंधी एवं हल्दी</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>14.04.2025, सोमवार</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event2.svg" alt="event2">
+                                                        </i>
+                                                        <span>मंडपछादन, हल्दीकलश, मेहंदी, एवं संगीत</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>15.04.2025, मंगलवार</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event3.svg" alt="event3">
+                                                        </i>
+                                                        <span>शुभ विवाह</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>16.04.2025, बुधवार</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event4.svg" alt="event4">
+                                                        </i>
+                                                        <span>Dinner</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>7.00 PM</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event5.svg" alt="event5">
+                                                        </i>
+                                                        <span>Cake Cutting</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>9.00 PM</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event6.svg" alt="event6">
+                                                        </i>
+                                                        <span>First Dance</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>10.00 PM</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="wpo-event-item">
+                                                    <div class="wpo-event-text">
+                                                        <i>
+                                                            <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/event7.svg" alt="event7">
+                                                        </i>
+                                                        <span>Depart</span>
+                                                    </div>
+                                                    <div class="wpo-event-time">
+                                                        <h4>11.00 PM</h4>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                </div> -->
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="shape-1">
+                                                <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2025/01/event-shape-3.png" alt="">
+                                            </div>
+                                            <div class="shape-2">
+                                                <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2025/01/event-shape-1.png" alt="">
+                                            </div>
+                                            <div class="shape-3">
+                                                <img decoding="async" src="http://wpocean.site/wp-content/uploads/sites/19/2025/01/event-shape-2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="elementor-element elementor-element-02f78a9 e-con-full e-flex e-con e-parent" data-id="02f78a9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-element elementor-element-8af3dd1 elementor-widget elementor-widget-wpo-sukun_title" data-id="8af3dd1" data-element_type="widget" data-widget_type="wpo-sukun_title.default">
+                        <div class="elementor-widget-container">
+                            <div class="wpo-section-area">
+                                <div class="wpo-section-title">
+                                    <h4 class="poort-text poort-in-right">Latest News</h4>
+                                    <h2 class="poort-text poort-in-right">Our Latest Wedding News</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-8b8d345 e-con-full e-flex e-con e-parent" data-id="8b8d345" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-element elementor-element-6aa1859 elementor-widget elementor-widget-wpo-sukun_blog" data-id="6aa1859" data-element_type="widget" data-widget_type="wpo-sukun_blog.default">
+                        <div class="elementor-widget-container">
+                            <div class="sukun-blog wpo-blog-section">
+                                <div class="container">
+                                    <div class="wpo-blog-items">
+                                        <div class="row">
+                                            <div class="col col-lg-4 col-md-6 col-12">
+                                                <div class="wpo-blog-item wow fadeInUp" data-wow-duration="1000ms">
+                                                    <div class="wpo-blog-img">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/blog-1.jpg" alt="blog-1">
+                                                    </div>
+                                                    <div class="wpo-blog-content">
+                                                        <ul>
+                                                            <li>
+                                                                By <a href="https://sukun.wpocean.site/best-wedding-gown-for-your-dream-day/"></a>
+                                                            </li>
+                                                            <li>January 5, 2025</li>
+                                                        </ul>
+                                                        <h2>
+                                                            <a href="https://sukun.wpocean.site/best-wedding-gown-for-your-dream-day/">Best Wedding Gown For Your Dream Day												</a>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-4 col-md-6 col-12">
+                                                <div class="wpo-blog-item wow fadeInUp" data-wow-duration="1200ms">
+                                                    <div class="wpo-blog-img">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/blog-2.jpg" alt="blog-2">
+                                                    </div>
+                                                    <div class="wpo-blog-content">
+                                                        <ul>
+                                                            <li>
+                                                                By <a href="https://sukun.wpocean.site/you-must-need-a-great-photographer/"></a>
+                                                            </li>
+                                                            <li>January 5, 2025</li>
+                                                        </ul>
+                                                        <h2>
+                                                            <a href="https://sukun.wpocean.site/you-must-need-a-great-photographer/">You Must Need a Great Photographer												</a>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-4 col-md-6 col-12">
+                                                <div class="wpo-blog-item wow fadeInUp" data-wow-duration="1400ms">
+                                                    <div class="wpo-blog-img">
+                                                        <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/blog-3.jpg" alt="blog-3">
+                                                    </div>
+                                                    <div class="wpo-blog-content">
+                                                        <ul>
+                                                            <li>
+                                                                By <a href="https://sukun.wpocean.site/top-10-wedding-bouquet-arranging-idea/"></a>
+                                                            </li>
+                                                            <li>January 5, 2025</li>
+                                                        </ul>
+                                                        <h2>
+                                                            <a href="https://sukun.wpocean.site/top-10-wedding-bouquet-arranging-idea/">Top 10 Wedding Bouquet Arranging Idea												</a>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="page-pagination-wrap">
+                                                <div class="paginations"></div>
+                                            </div>
+                                        </div>
+                                        <div class="b-shape-2"></div>
+                                    </div>
+                                </div>
+                                <!-- end container --
+                                <div class="b-shape"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-e11ae54 e-con-full e-flex e-con e-parent" data-id="e11ae54" data-element_type="container">
+                    <div class="elementor-element elementor-element-68360ad elementor-widget elementor-widget-wpo-sukun_client" data-id="68360ad" data-element_type="widget" data-widget_type="wpo-sukun_client.default">
+                        <div class="elementor-widget-container">
+                            <div class="wpo-partners-section">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col col-xs-12">
+                                            <div class="partner-grids partners-slider owl-carousel">
+                                                <div class="grid">
+                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/client1.png" alt="client1">
+                                                </div>
+                                                <div class="grid">
+                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/client2.png" alt="client2">
+                                                </div>
+                                                <div class="grid">
+                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/client3.png" alt="client3">
+                                                </div>
+                                                <div class="grid">
+                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/client4.png" alt="client4">
+                                                </div>
+                                                <div class="grid">
+                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/client5.png" alt="client5">
+                                                </div>
+                                                <div class="grid">
+                                                    <img decoding="async" src="https://sukun.wpocean.site/wp-content/uploads/sites/19/2025/01/client3.png" alt="client3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <!-- Footer -->
+            <footer class="footer-builder">
+                <div data-elementor-type="wp-post" data-elementor-id="2519" class="elementor elementor-2519">
+                    <div class="elementor-element elementor-element-30a1a41 e-con-full e-flex e-con e-parent" data-id="30a1a41" data-element_type="container">
+                        <div class="elementor-element elementor-element-76b1746 elementor-widget elementor-widget-wpo-sukun_footer_info" data-id="76b1746" data-element_type="widget" data-widget_type="wpo-sukun_footer_info.default">
+                            <div class="elementor-widget-container">
+                                <div class="sukun-footer wpo-site-footer">
+                                    <div class="wpo-upper-footer">
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <!-- <div class="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="widget link-widget">
+                                                        <div class="widget-title">
+                                                            <h3>Links</h3>
+                                                        </div>
+                                                        <div class="link-wrap">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="https://sukun.wpocean.site/about/">About</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://sukun.wpocean.site/services/">Services</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://sukun.wpocean.site/rsvp-style-1/">RSVP</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://sukun.wpocean.site/gallery/">Gallery</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://sukun.wpocean.site/contact/">Get Quote</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://sukun.wpocean.site/contact/">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                                                <div class="col col-xl-8 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="widget about-widget">
+                                                        <div class="logo widget-title">
+                                                            <a class="logo" href="https://sukun.wpocean.site/">
+                                                                <img decoding="async" class="default-logo" src="./prashuja_logo_2.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <p>We can’t wait to see all of our beloved friends and relative s at our wedding.</p>
+                                                        <ul>
+                                                            <!-- <li>
+                                                                <a href="http://Social">
+                                                                    <i class="fi ti-facebook"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="http://Social">
+                                                                    <i class="fab fa-twitter"></i>
+                                                                </a>
+                                                            </li> -->
+                                                            <li>
+                                                                <a href="https://www.instagram.com/prashuja74">
+                                                                    <i class="fab fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="widget wpo-service-link-widget">
+                                                        <div class="widget-title">
+                                                            <h3>Contact</h3>
+                                                        </div>
+                                                        <div class="contact-ft">
+                                                            <p>
+                                                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1a696f716f745a7d777b737634797577">prashantkr66@gmail.com</a>
+                                                            </p>
+                                                            <p>मेन रोड, बेड़ो, रांची (झारखंड)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end container -->
+                                    </div>
+                                    <div class="wpo-lower-footer">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col col-xs-12">
+                                                    <p class="copyright">
+                                                        &copy;Copyright 2025 | <a href="#">Prashuja</a>
+                                                        | All right                          reserved.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer -->
+        </div>
+        <!--sukun-theme-wrapper -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script>
+            const lazyloadRunObserver = () => {
+                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+                const lazyloadBackgroundObserver = new IntersectionObserver( (entries) => {
+                    entries.forEach( (entry) => {
+                        if (entry.isIntersecting) {
+                            let lazyloadBackground = entry.target;
+                            if (lazyloadBackground) {
+                                lazyloadBackground.classList.add('e-lazyloaded');
+                            }
+                            lazyloadBackgroundObserver.unobserve(entry.target);
+                        }
+                    }
+                    );
+                }
+                ,{
+                    rootMargin: '200px 0px 200px 0px'
+                });
+                lazyloadBackgrounds.forEach( (lazyloadBackground) => {
+                    lazyloadBackgroundObserver.observe(lazyloadBackground);
+                }
+                );
+            }
+            ;
+            const events = ['DOMContentLoaded', 'elementor/lazyload/observe', ];
+            events.forEach( (event) => {
+                document.addEventListener(event, lazyloadRunObserver);
+            }
+            );
+        </script>
+        <script type='text/javascript'>
+            (function() {
+                var c = document.body.className;
+                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+                document.body.className = c;
+            }
+            )();
+        </script>
+        <link rel='stylesheet' id='wc-blocks-style-css' href='https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.7.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-250-css' href='https://sukun.wpocean.site/wp-content/uploads/sites/19/elementor/css/post-250.css?ver=1742208082' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-2519-css' href='https://sukun.wpocean.site/wp-content/uploads/sites/19/elementor/css/post-2519.css?ver=1742208082' type='text/css' media='all'/>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+        <script type="text/javascript" id="wp-i18n-js-after">
+            /* <![CDATA[ */
+            wp.i18n.setLocaleData({
+                'text direction\u0004ltr': ['ltr']
+            });
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.5" id="swv-js"></script>
+        <script type="text/javascript" id="contact-form-7-js-before">
+            /* <![CDATA[ */
+            var wpcf7 = {
+                "api": {
+                    "root": "https:\/\/sukun.wpocean.site\/wp-json\/",
+                    "namespace": "contact-form-7\/v1"
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.5" id="contact-form-7-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/sukun-core/assets/plugin-scripts.js?ver=6.7.2" id="plugin-scripts-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/bootstrap.min.js?ver=5.0.1" id="bootstrap-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/isotope.min.js?ver=2.2.2" id="isotope-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/fancybox.min.js?ver=2.1.5" id="fancybox-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/instafeed.min.js?ver=2.1.5" id="instafeed-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/progresscircle.js?ver=2.1.5" id="circle-progress-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/countdown.js?ver=2.2.0" id="countdown-clock-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/owl-carousel.js?ver=2.0.0" id="owl-carousel-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/jquery-easing.js?ver=1.4.0" id="jquery-easing-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/wow.min.js?ver=1.4.0" id="wow-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/odometer.min.js?ver=0.4.8" id="odometer-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/magnific-popup.js?ver=1.1.0" id="magnific-popup-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/slick-slider.js?ver=1.6.0" id="slick-slider-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/moving-animation.js?ver=1.0.0" id="moving-animation-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/gsap.js?ver=3.12.5" id="gsap-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/gsap-scroll-to-plugin.js?ver=3.11.4" id="ScrollToPlugin-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/gsap-scroll-trigger.js?ver=3.12.5" id="ScrollTrigger-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/gsap-scroll-smoother.js?ver=3.11.4" id="ScrollSmoother-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/gsap-split-text.js?ver=3.11.2" id="SplitText-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/gsap-active.js?ver=3.11.2" id="gsap-active-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/wc-quantity-increment.js?ver=1.0.0" id="wc-quantity-increment-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/scripts.js?ver=1.0" id="sukun-scripts-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/themes/sukun/assets/js/jquery.validate.min.js?ver=1.9.0" id="sukun-inline-validate-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.7.1" id="sourcebuster-js-js"></script>
+        <script type="text/javascript" id="wc-order-attribution-js-extra">
+            /* <![CDATA[ */
+            var wc_order_attribution = {
+                "params": {
+                    "lifetime": 1.0e-5,
+                    "session": 30,
+                    "base64": false,
+                    "ajaxurl": "https:\/\/sukun.wpocean.site\/wp-admin\/admin-ajax.php",
+                    "prefix": "wc_order_attribution_",
+                    "allowTracking": true
+                },
+                "fields": {
+                    "source_type": "current.typ",
+                    "referrer": "current_add.rf",
+                    "utm_campaign": "current.cmp",
+                    "utm_source": "current.src",
+                    "utm_medium": "current.mdm",
+                    "utm_content": "current.cnt",
+                    "utm_id": "current.id",
+                    "utm_term": "current.trm",
+                    "utm_source_platform": "current.plt",
+                    "utm_creative_format": "current.fmt",
+                    "utm_marketing_tactic": "current.tct",
+                    "session_entry": "current_add.ep",
+                    "session_start_time": "current_add.fd",
+                    "session_pages": "session.pgs",
+                    "session_count": "udata.vst",
+                    "user_agent": "udata.uag"
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.7.1" id="wc-order-attribution-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.7" id="elementor-webpack-runtime-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.7" id="elementor-frontend-modules-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+        <script type="text/javascript" id="elementor-frontend-js-before">
+            /* <![CDATA[ */
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false,
+                    "isScriptDebug": false
+                },
+                "i18n": {
+                    "shareOnFacebook": "Share on Facebook",
+                    "shareOnTwitter": "Share on Twitter",
+                    "pinIt": "Pin it",
+                    "download": "Download",
+                    "downloadImage": "Download image",
+                    "fullscreen": "Fullscreen",
+                    "zoom": "Zoom",
+                    "share": "Share",
+                    "playVideo": "Play Video",
+                    "previous": "Previous",
+                    "next": "Next",
+                    "close": "Close",
+                    "a11yCarouselPrevSlideMessage": "Previous slide",
+                    "a11yCarouselNextSlideMessage": "Next slide",
+                    "a11yCarouselFirstSlideMessage": "This is the first slide",
+                    "a11yCarouselLastSlideMessage": "This is the last slide",
+                    "a11yCarouselPaginationBulletMessage": "Go to slide"
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "responsive": {
+                    "breakpoints": {
+                        "mobile": {
+                            "label": "Mobile Portrait",
+                            "value": 767,
+                            "default_value": 767,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "mobile_extra": {
+                            "label": "Mobile Landscape",
+                            "value": 880,
+                            "default_value": 880,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "tablet": {
+                            "label": "Tablet Portrait",
+                            "value": 1024,
+                            "default_value": 1024,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet_extra": {
+                            "label": "Tablet Landscape",
+                            "value": 1200,
+                            "default_value": 1200,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "laptop": {
+                            "label": "Laptop",
+                            "value": 1366,
+                            "default_value": 1366,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "widescreen": {
+                            "label": "Widescreen",
+                            "value": 2400,
+                            "default_value": 2400,
+                            "direction": "min",
+                            "is_enabled": false
+                        }
+                    },
+                    "hasCustomBreakpoints": false
+                },
+                "version": "3.27.7",
+                "is_static": false,
+                "experimentalFeatures": {
+                    "e_font_icon_svg": true,
+                    "additional_custom_breakpoints": true,
+                    "container": true,
+                    "e_swiper_latest": true,
+                    "e_onboarding": true,
+                    "home_screen": true,
+                    "nested-elements": true,
+                    "editor_v2": true,
+                    "e_element_cache": true,
+                    "link-in-bio": true,
+                    "floating-buttons": true,
+                    "launchpad-checklist": true
+                },
+                "urls": {
+                    "assets": "https:\/\/sukun.wpocean.site\/wp-content\/plugins\/elementor\/assets\/",
+                    "ajaxurl": "https:\/\/sukun.wpocean.site\/wp-admin\/admin-ajax.php",
+                    "uploadUrl": "https:\/\/sukun.wpocean.site\/wp-content\/uploads\/sites\/19"
+                },
+                "nonces": {
+                    "floatingButtonsClickTracking": "7ecd3afcef"
+                },
+                "swiperClass": "swiper",
+                "settings": {
+                    "page": [],
+                    "editorPreferences": []
+                },
+                "kit": {
+                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                    "global_image_lightbox": "yes",
+                    "lightbox_enable_counter": "yes",
+                    "lightbox_enable_fullscreen": "yes",
+                    "lightbox_enable_zoom": "yes",
+                    "lightbox_enable_share": "yes",
+                    "lightbox_title_src": "title",
+                    "lightbox_description_src": "description"
+                },
+                "post": {
+                    "id": 17,
+                    "title": "Wedding%20and%20Planner%20WordPress%20Theme",
+                    "excerpt": "",
+                    "featuredImage": false
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.7" id="elementor-frontend-js"></script>
+        <script type="text/javascript" src="https://sukun.wpocean.site/wp-content/plugins/sukun-core/elementor/assets/js/sukun-elementor.js?ver=6.7.2" id="sukun-elementor-js"></script>
+    </body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 5617 objects (2 MB) from Redis using PhpRedis (v6.1.0).
+-->
